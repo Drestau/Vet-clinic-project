@@ -59,27 +59,50 @@
 	</div>
 	<div class="vhcontent" id="s1">
 		<div class="services">
-			<h2>
-				Hizmetlerimiz
-			</h2>
-			<div class="cardsContainer">
-				<div class="serviceCard">
-					Yo
+			<div class="columnsContainer">
+				<div class="column-image">
+					<img src="../../images/vet_online_3.jpg" alt="">
 				</div>
-				<div class="serviceCard">
-					Yo
-				</div>
-				<div class="serviceCard">
-					Yo
-				</div>
-				<div class="serviceCard">
-					Yo
+				<div class="content">
+					<h2>
+						Canlı video danışmanlığı veriyoruz
+					</h2>
+					<p>
+						Uygulama üzerinden tek tıkla canlı olarak evcil hayvanınız için videolu danışmanlık hizmeti veriyoruz.
+					</p>
 				</div>
 			</div>
+			<i class="fa-solid fa-chevron-down" id="b1"></i>
 		</div>
-		<i class="fa-solid fa-chevron-down" id="b1"></i>
 	</div>
-	
+	<div class="vhcontent" id="s2">
+		<div class="services">
+			<div class="columnsContainer">
+				<div class="content">
+					<h2>
+						Online Mağazamızdan küçük dostlarınızın tüm ihtiyaçlarını karşılayın.
+					</h2>
+					<p>
+						Yapım aşamasında. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore at laboriosam eius cupiditate quae.
+					</p>
+				</div>
+				<div class="column-image">
+					<img src="../../images/44406747.jpg" alt="">
+				</div>
+			</div>
+			<i class="fa-solid fa-chevron-down" id="b2"></i>
+		</div>
+	</div>
+	<div class="vhcontent" id="s3">
+		<h2>Hakkımızda ne söyleniyor?</h2>
+		<div class="commentsContiner">
+			<div class="comment"></div>
+			<div class="comment"></div>
+			<div class="comment"></div>
+			<div class="comment"></div>
+		</div>
+		<a href="#s0"><i class="fa-solid fa-chevron-up"></i></a>
+	</div>
 </div>
 
 
@@ -92,17 +115,17 @@
 
 // i-1 adet scroll butonuna tıklama efekti ekler
 function addButtonListeners() {
-  for (let i=0; i <= 0; i++) {
+  for (let i=0; i <= 5; i++) {
 	const scrollButton = document.getElementById('b' + i)
 	scrollButton.addEventListener("click", scrollToNext)
   }
   
 }
 function scrollToNext() {
-// Tıklanan butonun indexini alır Get the index of the button that was clicked
+// Tıklanan butonun indexini alır
 const buttonIndex = this.id.substr(1);
 
-// Elementi bi sonraki screene scrollayacak hale getirir
+// Elementi bi sonraki indexe scrollayacak hale getirir
 const scrollElement = document.getElementById('s' + (parseInt(buttonIndex) + 1));
 scrollElement.scrollIntoView();
 }
