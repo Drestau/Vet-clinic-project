@@ -11,19 +11,26 @@ html {
 /* Text elementleri */
 
 h2 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: var(--color1);
+    padding: 1rem;
+    color: var(--color2);
 }
 p {
-    font-size: 2rem;
+    font-size: 1rem;
+    padding: 1rem;
     color: var(--colorB);
 }
 
 
 .vhcontent {
     overflow: hidden;
+    height: 100vh;
     position: relative;
+    -webkit-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.6);
+    box-shadow: 0px 6px 19px 1px rgba(0,0,0,0.6);
+    
 } /* Scroll butonu*/
 .fa-chevron-down {
     font-size: 2rem;
@@ -31,15 +38,19 @@ p {
     bottom: 4rem;
     left: 50%;
     transform: translateX(-50%);
+
     padding: 1rem;
     border: none;
+    border-radius: 50%;
+
+    color: var(--color2);
+    cursor: pointer;
+
     -webkit-box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.73);
     -moz-box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.73);
     box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.73);
-    border-radius: 50%;
+
     transition: all 0.5s ease-in-out;
-    color: var(--colorB);
-    cursor: pointer;
 }   .fa-chevron-down:hover {
         font-size: 2.4rem;
         color: var(--color1);
@@ -50,8 +61,11 @@ p {
 
 
 /* Landing screen content */
+#s0 {
+    z-index: 9;
+}
 #Landing {
-    padding: 4rem 12rem 0 12rem;
+    padding: 1.5rem 6rem 0 6rem;
     overflow: hidden;
 }
 .columnsContainer {
@@ -74,3 +88,36 @@ p {
     width: 100%;
 }
 
+
+/* Servisler */
+
+#s1 {
+    background-color: #393E46;
+    z-index: 8;
+}
+.services{
+    text-align: center;
+    padding: 2rem;
+    height: 100%;
+}
+
+.cardContainer {
+    display: flex;
+    padding: auto;
+    flex-direction: row;
+}
+
+.serviceCard {
+    width: 18%;
+    margin-left: 1.5rem;
+    padding: 1rem;
+    aspect-ratio: 0.54;
+    background-color: #FF2E63;
+    border-radius: 40px;
+    display: inline-block;
+    -webkit-box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.73);
+    box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.73);
+}.serviceCard:nth-of-type(1) {
+    margin-left: 0;
+}
