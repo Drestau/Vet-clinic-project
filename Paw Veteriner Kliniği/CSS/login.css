@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+main{
+	height: 100vh;
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+	color: #393E46;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loginBox{
+	width: 520px;
+	height: 600px;
+	border-radius: 30px;
+	padding: 48px 36px 36px 36px ;
+	background-color: #EEEEEE;
+	box-shadow: rgba(17, 17, 26, 0.4) 0px 1px 0px, rgba(17, 17, 26, 0.4) 0px 8px 24px, rgba(17, 17, 26, 0.4) 0px 16px 48px;
+	/* https://getcssscan.com/css-box-shadow-examples bu siteden alındı #69 */
+
+}
+
+.loginBox__title{
+	text-align: center;
+	font-size: 28px;
+	padding-top: 16px;
+	letter-spacing: 0.7px;
+}
+
+.loginBox__account{
+	width: 100%;
+	padding: 80px 7px 7px 7px;
+}
+
+.loginBox__account p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 16px;
+	color: #393E46;
+	padding: 15px 0px;
+	width: 100%;
+	
+}
+
+.account__email,
+.account__password{
+	margin-bottom: 31px;
+	border-bottom: 1px solid #00ADB5;
+}
+
+.account__button{
+	border: none;
+	outline: none;
+	cursor: pointer;
+	width: 100%;
+	height: 60px;
+	font-weight: bold;
+	background-color: #FF2E63;
+	font-size: 21px;
+	border-radius: 20px;
+	text-align: center;
+	color: #EEEEEE;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+	transition: .5s;
+	margin-bottom: 20px;
+}
+
+.account__button:hover, .account__button:focus{
+	background-color: #00ADB5;
+}
+
+.loginBox__signUp__fpas{
+	text-align: center;
+}
+
+.loginBox__signUp__fpas a{
+	text-decoration: none;
+	color: #FF2E63;
+	transition: .5s;
+
+}
+
+.loginBox__signUp__fpas a:hover, a:focus{
+	color: #00ADB5;
+}
