@@ -1,0 +1,76 @@
+:root {
+    --color1: #00ADB5   ;
+    --color2: #FF2E63   ;
+    --colorE: #EEEEEE   ;
+    --colorB: #393E46   ;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Text elementleri */
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: var(--color1);
+}
+p {
+    font-size: 2rem;
+    color: var(--colorB);
+}
+
+
+.vhcontent {
+    overflow: hidden;
+    position: relative;
+} /* Scroll butonu*/
+.fa-chevron-down {
+    font-size: 2rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem;
+    border: none;
+    -webkit-box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.73);
+    box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.73);
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    color: var(--colorB);
+    cursor: pointer;
+}   .fa-chevron-down:hover {
+        font-size: 2.4rem;
+        color: var(--color1);
+        -webkit-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.6);
+        -moz-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.6);
+        box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.6);
+    }
+
+
+/* Landing screen content */
+#Landing {
+    padding: 4rem 12rem 0 12rem;
+    overflow: hidden;
+}
+.columnsContainer {
+    display: flex;
+    gap: 4rem;
+
+}
+.content {
+    display: inline-block;
+    width: 50%;
+    padding: 4rem 0;
+}
+
+.column-image {
+    width: 50%;
+    min-width: 50%;
+    display: inline-block;
+}
+.column-image img {
+    width: 100%;
+}
+
