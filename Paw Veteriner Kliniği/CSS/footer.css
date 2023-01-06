@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --color1: #00ADB5   ;
+    --color2: #FF2E63   ;
+    --colorE: #EEEEEE   ;
+    --colorB: #393E46   ;
+}
+
+
+footer {
+    background-color: var(--colorE);
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    overflow: hidden;
+    gap: 8px;   
+}
+.footerMain .logo img{
+    transform: translateX(-1.4rem);
+}
+.footerMain {
+    position: relative;
+    align-self: start;
+    height: 100%;
+    border-right-style: solid;
+    border-color: #393E46;
+    border-right: 6px;
+    padding: 2rem 0rem 2rem 4rem;
+}
+.footerMain h2{
+    color: var(--color1);
+}
+.footerMain p {
+    color: var(--colorB);
+    position: absolute;
+    bottom: 2rem;
+    left: 4rem;
+}
+footer h4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+.footerNav {
+    padding: 0 0 0 2rem;
+    background-color: #00ADB5;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+footer a {
+    text-decoration: none;
+    color: var(--colorB);
+    transition: all 0.4s ease;
+} footer a:hover {
+    color: black;
+    font-size: 22px;
+}
+footer ul, li {
+    text-decoration: none;
+    list-style: none;
+    color: var(--colorB);
+
+}
+
+footer li {
+    padding-top: 0.6rem;
+}
+
+.iframe iframe {
+    width: 85%;
+    height: 40%;
+    margin-top: 4rem;
+} 

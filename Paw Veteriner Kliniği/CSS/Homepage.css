@@ -124,6 +124,7 @@ html {
 #s3 h2 {
     color: var(--color1);
     font-size: 2.5rem;
+    padding-top: 1rem;
     margin-bottom: 2rem;
 }
 .commentsContiner {
@@ -142,9 +143,17 @@ html {
     padding: 3rem 1.2rem;
 }
 .user {
-    
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 auto 1rem auto;
 }
 
 .comment h3 {
+    color: black;
+    margin-bottom: 0.8rem;
+}
+.comment p {
     color: black;
 }
