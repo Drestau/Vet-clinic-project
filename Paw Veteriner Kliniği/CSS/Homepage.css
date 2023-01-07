@@ -4,6 +4,7 @@
     --colorE: #EEEEEE   ;
     --colorB: #393E46   ;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -115,6 +116,8 @@ html {
     overflow: hidden;
 }
 
+
+/* comments */
 #s3 {
     background-color: #393E46;
     text-align: center;
@@ -127,6 +130,7 @@ html {
     padding-top: 1rem;
     margin-bottom: 2rem;
 }
+
 .commentsContiner {
     display: grid;
     margin-left: auto;
@@ -157,3 +161,9 @@ html {
 .comment p {
     color: black;
 }
+
+a  {
+    text-decoration: none;    
+    color: var(--color2);
+}
+

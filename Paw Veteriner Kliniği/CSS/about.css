@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --color1: #00ADB5   ;
+    --color2: #FF2E63   ;
+    --colorE: #EEEEEE   ;
+    --colorB: #393E46   ;
+}
+
+.vhcontent {
+    height: 100vh;
+    position: relative;
+} 
+
+.aboutUs-container {
+    height: 100%;
+    position: relative;
+}
+
+.containerbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../../images/modern-hospital-cats-dogs_74855-7620.webp);
+    height: 100%;
+    width: 100%;
+    transform: translateY(-20%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.aboutUs-content {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    background-color: rgb(238, 238, 238, 0.8);
+    height: 65%;
+    width: 40%;
+    border: none;
+    border-radius: 40px;
+	box-shadow: 0px 5px 40px -21px rgba(0,0,0,0.75);
+    backdrop-filter: blur(10px);
+    padding: 3rem 2rem;
+}
+
+h1 {
+    font-size: 3.6rem;
+    color: var(--color2);
+}
+p {
+    font-size: 1.4rem;
+    padding-left: 2rem;
+}
+.socials {
+    display: flex;
+    margin-top: 2rem;
+}
+.socials a  {
+    text-decoration: none;    
+    color: var(--color2);
+    font-size: 4rem;
+    margin-top: auto;
+    margin: auto;
+}
