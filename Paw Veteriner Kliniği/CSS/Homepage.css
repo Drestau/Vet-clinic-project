@@ -122,6 +122,9 @@ html {
     background-color: #393E46;
     text-align: center;
     position: relative;
+    overflow: hidden;
+    height: 95vh;
+    position: relative;
 }
 
 #s3 h2 {
@@ -162,8 +165,4 @@ html {
     color: black;
 }
 
-a  {
-    text-decoration: none;    
-    color: var(--color2);
-}
 

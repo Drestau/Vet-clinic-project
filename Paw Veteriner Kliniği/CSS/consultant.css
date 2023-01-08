@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --color1: #00ADB5   ;
+    --color2: #FF2E63   ;
+    --colorE: #EEEEEE   ;
+    --colorB: #393E46   ;
+}
+
+.vhcontent {
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+
+} 
+.landing {
+    display: flex;
+    height: 100%;
+    position: relative;
+}
+.landing .main {
+    font-size: 2rem;
+    width: 50%;
+    padding: 6rem 4rem;
+}
+.onlineimg {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -2;
+    transform: translateY(-10%);
+    background-image: url(../../images/vet_online_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.main h1 {
+    color: var(--color1);
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.buttons-container button {
+    padding: 1.4rem;
+    color: var(--color1);
+    background-color: var(--colorB);
+    font-size: 2rem;
+    border-style: solid;
+    border-color: var(--color1);
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+} button:hover {
+    color: var(--colorB);
+    background-color: var(--color2);
+    border-color: var(--colorB);
+}

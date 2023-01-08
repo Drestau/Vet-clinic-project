@@ -18,8 +18,8 @@ main{
 }
 
 .signUpBox{
-	width: 520px;
-	height: 680px;
+	width: 36rem;
+	aspect-ratio: 0.82;
 	border-radius: 30px;
 	padding: 48px 36px 36px 36px ;
 	background-color: #EEEEEE;
