@@ -60,7 +60,7 @@ p {
     display: flex;
     margin-top: 2rem;
 }
-.socials a  {
+.main-socials a {
     text-decoration: none;    
     color: var(--color2);
     font-size: 4rem;

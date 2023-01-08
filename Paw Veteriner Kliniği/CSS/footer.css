@@ -59,9 +59,11 @@ footer .nav a {
     color: var(--colorB);
     transition: all 0.4s ease;
     width: max-content;
+    font-size: 22px;
+    
 } footer a:hover {
     color: black;
-    font-size: 22px;
+    font-size: 28px;
 }
 footer ul, li {
     text-decoration: none;
@@ -69,6 +71,7 @@ footer ul, li {
     color: var(--colorB);
     width: max-content;
     max-width: 100%;
+    font-size: 22px;
 }
 
 footer li {
